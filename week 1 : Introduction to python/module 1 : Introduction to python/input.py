@@ -6,7 +6,6 @@ We'll learn today -
 - Converting one format to another format
 """
 
-
 money = input("Enter your Money : ")
 print(f"Here is your money", money)
 
@@ -23,17 +22,14 @@ print(type(total))
 # taking Integer type data
 int_money = int(input("Enter u r input : "))
 int_money_ = int(input("Enter u r input again : "))
-
 total_int = int_money + int_money_
 
 print("Total amount integer : ", total_int)
 print(type(total_int))
 
-
 # taking float data
 Age = float(input("what's ur age? : "))
 print("My age is ", Age)
-
 
 # converting String to Integer
 money_int = int(money)
