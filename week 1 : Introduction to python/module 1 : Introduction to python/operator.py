@@ -5,6 +5,7 @@
 
 a = 6
 b = 4
+c = 10
 
 '''Direct operation'''
 
@@ -17,5 +18,6 @@ print("Division is ", a / b)
 # into Integer format
 print("Division is", a // b)
 
-print("Reminder is", a % b)
+print("Remainder is", a % b)
+print("Remainder is", c % b)
 
